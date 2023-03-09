@@ -5,16 +5,17 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/03/07 14:25:48 by mfusil            #+#    #+#              #
-#    Updated: 2023/03/08 18:19:45 by mfusil           ###   ########.fr        #
+#    Created: 2023/03/08 18:25:57 by mfusil            #+#    #+#              #
+#    Updated: 2023/03/08 18:52:55 by mfusil           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = megaphone
+NAME = phonebook
 
 FLAG = -Wall -Wextra -Werror -std=c++98
 
-SRCS =	megaphone.cpp
+SRCS =	PhoneBook.cpp\
+		main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

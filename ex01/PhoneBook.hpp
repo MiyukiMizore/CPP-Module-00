@@ -1,32 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   PhoneBook.hpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/07 15:34:59 by mfusil            #+#    #+#             */
-/*   Updated: 2023/03/07 17:44:23 by mfusil           ###   ########.fr       */
+/*   Created: 2023/03/08 18:26:07 by mfusil            #+#    #+#             */
+/*   Updated: 2023/03/08 18:54:24 by mfusil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef PHONEBOOK_HPP
+# define PHONEBOOK_HPP
+
 #include <iostream>
-#include "Sample.class.hpp"
+#include "Contact.hpp"
 
-/**
- * Sample instance = type + nom variable (comme si je declarais une variable en C)
- * var est une instance de la class Sample
- * Sample var role
- * 1- Declaration var
- * 2- Execution code Sample.class.cpp
- **/
-
-
-int main()
+class Phonebook
 {
-	Sample var(4.4);
+    public:
+    Phonebook(void);
+    ~Phonebook(void);
 
-	var.bar();
-	
-	return (0);
-}
+
+    private:
+    int nbr_of_contact;
+};
+
+#endif
