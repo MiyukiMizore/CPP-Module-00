@@ -6,7 +6,7 @@
 /*   By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 18:26:07 by mfusil            #+#    #+#             */
-/*   Updated: 2023/03/09 16:04:13 by mfusil           ###   ########.fr       */
+/*   Updated: 2023/03/10 17:08:01 by mfusil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,11 @@ class Phonebook
     void    search(void);
 
     private:
+    Contact contact_array[8];
     int nbr_of_contact;
+    void printlist(void);
+    int search_in_list(std::string cmd);
+    std::string stock(const std::string& cmd);
 };
 
 #endif

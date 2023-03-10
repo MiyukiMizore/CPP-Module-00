@@ -6,15 +6,16 @@
 #    By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/08 18:25:57 by mfusil            #+#    #+#              #
-#    Updated: 2023/03/09 15:42:53 by mfusil           ###   ########.fr        #
+#    Updated: 2023/03/10 16:51:13 by mfusil           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = phonebook
 
-FLAG = -Wall -Wextra -Werror -std=c++98
+FLAG = -Wall -Wextra -Werror -std=c++98 -g3
 
 SRCS =	PhoneBook.cpp\
+		Contact.cpp\
 		main.cpp
 
 OBJS = $(SRCS:.cpp=.o)

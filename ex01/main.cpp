@@ -6,7 +6,7 @@
 /*   By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 18:51:44 by mfusil            #+#    #+#             */
-/*   Updated: 2023/03/09 17:22:31 by mfusil           ###   ########.fr       */
+/*   Updated: 2023/03/10 15:18:26 by mfusil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int main(void)
     std::cout << std::endl;
     while (!(std::cin).eof())
     {
-        std::cout << "WHAT DO YOU WANT TO DO ? (ADD / SEARCH / EXIT)" << std::endl;
+        std::cout << "WHAT DO YOU WANT TO DO ? (ADD / SEARCH / EXIT) :  ";
         getline(std::cin, cmd);
         if (cmd == "ADD")
             chibre.add();
@@ -33,7 +33,7 @@ int main(void)
         else
         {
             std::cout << std::endl;
-            std::cout << "TU FAIS DE LA MERDE" << std::endl;
+            std::cout << "TU FAIS DE LA MERDE ARRETE" << std::endl;
             std::cout << std::endl;
         }
     }
