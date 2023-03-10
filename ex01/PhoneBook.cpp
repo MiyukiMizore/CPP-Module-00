@@ -6,7 +6,7 @@
 /*   By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 18:25:53 by mfusil            #+#    #+#             */
-/*   Updated: 2023/03/10 17:48:42 by mfusil           ###   ########.fr       */
+/*   Updated: 2023/03/10 19:24:49 by mfusil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,7 @@ void    Phonebook::search(void)
         {
             std::cout << std::endl;
             std::cout << "CONTACT DOES NOT EXIT" << std::endl;
+            std::cout << std::endl;
         }
     }
 }

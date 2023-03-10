@@ -6,7 +6,7 @@
 /*   By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 18:51:44 by mfusil            #+#    #+#             */
-/*   Updated: 2023/03/10 15:18:26 by mfusil           ###   ########.fr       */
+/*   Updated: 2023/03/10 19:23:49 by mfusil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int main(void)
     std::string cmd;
 
     std::cout << std::endl;
-    std::cout << "I'M JOSE MORIHNO" << std::endl;
+    std::cout << "WELCOME TO THE PHONEBOOK" << std::endl;
     std::cout << std::endl;
     while (!(std::cin).eof())
     {
@@ -33,7 +33,7 @@ int main(void)
         else
         {
             std::cout << std::endl;
-            std::cout << "TU FAIS DE LA MERDE ARRETE" << std::endl;
+            std::cout << "INVALID COMMAND" << std::endl;
             std::cout << std::endl;
         }
     }

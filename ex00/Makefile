@@ -6,7 +6,7 @@
 #    By: mfusil <mfusil@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/07 14:25:48 by mfusil            #+#    #+#              #
-#    Updated: 2023/03/08 18:19:45 by mfusil           ###   ########.fr        #
+#    Updated: 2023/03/09 15:42:51 by mfusil           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,10 +21,10 @@ OBJS = $(SRCS:.cpp=.o)
 all : $(NAME)
 
 .c.o:
-	@gcc  $(CFLAG) -o $@ -c $<
+	@g++  $(CFLAG) -o $@ -c $<
 
 $(NAME) : $(OBJS)
-		g++ $(CFLAG) -o $(NAME) $(OBJS)
+		@g++ $(CFLAG) -o $(NAME) $(OBJS)
 		@echo "$(GREEN)$(BOLD)Executable Created"
 
 clean :
