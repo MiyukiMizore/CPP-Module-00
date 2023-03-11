@@ -58,11 +58,11 @@ void	Contact::print_contact_in_tab(int i)
 {
 	std::cout.width(5);
 	std::cout << std::right << i + 1 << "|";
-	std::cout.width(11);
+	std::cout.width(10);
 	std::cout << std::right << trunked_string(this->first_name) << "|";
 	std::cout.width(10);
 	std::cout << std::right << trunked_string(this->last_name) << "|";
-	std::cout.width(9);
+	std::cout.width(10);
 	std::cout << std::right << trunked_string(this->nickname) << "|" << std::endl;	
 }
 
