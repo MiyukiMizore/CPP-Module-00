@@ -23,10 +23,10 @@ OBJS = $(SRCS:.cpp=.o)
 all : $(NAME)
 
 .c.o:
-	@g++  $(CFLAG) -o $@ -c $<
+	@c++  $(CFLAG) -o $@ -c $<
 
 $(NAME) : $(OBJS)
-		@g++ $(CFLAG) -o $(NAME) $(OBJS)
+		@c++ $(CFLAG) -o $(NAME) $(OBJS)
 		@echo "$(GREEN)$(BOLD)Executable Created"
 
 clean :
