@@ -33,9 +33,9 @@ void Phonebook::printlist(void)
             << "|";
     std::cout << std::right << " " << "First Name"
             << "|";
-    std::cout << std::right << " " << "Last Name"
+    std::cout << std::right << " " << " Last Name"
             << "|";
-    std::cout << std::right << " " << "Nickname"
+    std::cout << std::right << " " << " Nickname "
             << "|" << std::endl;
     std::cout << std::cout.fill('-') << std::endl;
     ;
